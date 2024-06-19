@@ -1,21 +1,27 @@
-📚 Sistema de Gerenciamento de Estoque para Livrarias
-Descrição
+# 📚 Sistema de Gerenciamento de Estoque para Livrarias
+
+Descrição: 
 
 Este projeto é um sistema de gerenciamento de estoque voltado para livrarias. Ele permite o controle eficiente de inventário, incluindo adição, remoção e atualização de informações sobre livros, bem como a geração de relatórios de estoque. O objetivo é simplificar o processo de gerenciamento de inventário e fornecer uma ferramenta robusta para livreiros.
-Funcionalidades
 
-    Cadastro de Livros: Adicione novos livros ao sistema com informações detalhadas como título, autor, gênero, preço e quantidade em estoque.
-    Atualização de Estoque: Atualize a quantidade de livros em estoque de forma fácil e rápida.
-    Busca Avançada: Encontre livros no estoque usando diversos critérios de pesquisa, como título, autor ou gênero.
-    Geração de Relatórios: Crie relatórios detalhados sobre o inventário, incluindo livros com baixo estoque e valor total dos livros em estoque.
-    Histórico de Transações: Acompanhe todas as transações de entrada e saída de livros para controle completo do histórico de estoque.
+Funcionalidades:
 
-Tecnologias Utilizadas
+- Cadastro de Livros: Adicione novos livros ao sistema com informações detalhadas como título, autor, gênero, preço e quantidade em estoque.
 
-    Front-end: HTML, CSS, JavaScript
-    Back-end: PHP
-    Banco de Dados: MySQL
-    Frameworks e Bibliotecas: Bootstrap para o layout responsivo
+- Atualização de Estoque: Atualize a quantidade de livros em estoque de forma fácil e rápida.
+
+- Geração de Relatórios: Crie relatórios detalhados sobre o inventário, valor total dos livros em estoque e quantidade de funcionarios.
+
+- Cadastro de Funcionarios: Adicione novos funcionarios ao sistema com informações detalhadas como nome, cpf, escolariedade, salario...
+
+- Atualização das informações dos funcionarios na tela de gerenciamento.
+
+
+Tecnologias Utilizadas:
+
+- Front-end: JAVA SW
+- Back-end: JAVA
+- Banco de Dados: MySql
 
 Instalação
 
