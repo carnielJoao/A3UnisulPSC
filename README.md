@@ -23,11 +23,34 @@ Tecnologias Utilizadas:
 - Back-end: JAVA
 - Banco de Dados: MySql
 
-Instalação
+Instalação(Passo a Passo):
 
-    Clone este repositório:
+1 - Abra o netbeans, clique em "File" vai aparecer varias opções clique em "New Project" logo após clicar vai aparecer uma tela,escolha a categoria de "Java with Ant" e selecione "Java Application" e aperte o botão "Next". Agora vai aparecer outra tela com varios campos no primeiro(Project Name) escreva ProjetoFinal, no ultimo(Create Main Class) escreva Principal.Principal e aperte o "Finish".
 
-    bash
+2 - Agora precisa baixar os arquivos certos que estão nesse diretorio git, clique na pasta "ProjetoFinal" logo após clique em "src" vai mostrar quatro pastas (DAO, Model, Principal e View) copie todas elas para sua área de trabalho
+
+3 - Ache a pasta raiz onde o netbeans salva os arquivos dos seus projetos, lá vai ta a pasta que voce criou anteriormente, abra ela dentro dela vai ter a pasta "src" clique nela e coloque os arquivos que estão na área de trabalho dentro.
+
+4 - Pronto, estamos quase lá precisamos fazer uns ajustes ainda, dentro do netbeans voce vai abrir o projeto, vai aparecer algumas pastas clique com o botão direito do mouse na pasta com nome "Libraries" vai aparecer a opção "Add JAR/Folder" clique nela e adicione o arquivo "mysql-connector-j-8.3.0.jar" precisa baixar na internet.
+
+5 - Como esse sistema usa um banco local, voce precisa configurar ele na sua maquina, precisa ter instalado o MySql server e o MySql Worbench, quando abrir o mysql Worbench voce vai criar uma nova conexão, de preferencia username "root" e a senha a mesma que foi usada no codigo "210195", no campo Default Schema escrever "db_inshelf". Vou passar os comandos sql que eu usei para criar as tabelas pois elas tem que ser iguais para não dar problema na execução do sistema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 git clone https://github.com/seu-usuario/sistema-estoque-livraria.git
 
