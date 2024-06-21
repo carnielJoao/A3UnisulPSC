@@ -19,7 +19,7 @@ Funcionalidades:
 
 Tecnologias Utilizadas:
 
-- Front-end: JAVA SW
+- Front-end: JAVA SWING
 - Back-end: JAVA
 - Banco de Dados: MySql
 
@@ -33,85 +33,10 @@ Instalação(Passo a Passo):
 
 4 - Pronto, estamos quase lá precisamos fazer uns ajustes ainda, dentro do netbeans voce vai abrir o projeto, vai aparecer algumas pastas clique com o botão direito do mouse na pasta com nome "Libraries" vai aparecer a opção "Add JAR/Folder" clique nela e adicione o arquivo "mysql-connector-j-8.3.0.jar" precisa baixar na internet.
 
-5 - Como esse sistema usa um banco local, voce precisa configurar ele na sua maquina, precisa ter instalado o MySql server e o MySql Worbench, quando abrir o mysql Worbench voce vai criar uma nova conexão, de preferencia username "root" e a senha a mesma que foi usada no codigo "210195", no campo Default Schema escrever "db_inshelf". Vou passar os comandos sql que eu usei para criar as tabelas pois elas tem que ser iguais para não dar problema na execução do sistema.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-git clone https://github.com/seu-usuario/sistema-estoque-livraria.git
-
-Navegue até o diretório do projeto:
-
-bash
-
-cd sistema-estoque-livraria
-
-Instale as dependências necessárias:
-
-bash
-
-composer install
-
 Configure o banco de dados:
 
-    Crie um banco de dados MySQL.
-    Importe o arquivo database.sql para configurar a estrutura do banco de dados.
+1 - Como esse sistema usa um banco local, voce precisa configurar ele na sua maquina, precisa ter instalado o MySql server e o MySql Worbench, quando abrir o mysql Worbench voce vai criar uma nova conexão, de preferencia username "root" e a senha a mesma que foi usada no codigo "210195", no campo Default Schema escrever "db_inshelf".
 
-Configure o arquivo .env com suas credenciais de banco de dados.
+2 - Dentro da pasta ProjetoFinal tem uma pasta com o nome de "Dump20240621", dentro dela tem os arquivos com os comandos Sql, copie e execute os comandos sql.
 
-Inicie o servidor local:
-
-bash
-
-    php -S localhost:8000
-
-Uso
-
-    Acesse o sistema no navegador em http://localhost:8000.
-    Utilize o painel de administração para gerenciar os livros e visualizar o estoque.
-
-Contribuição
-
-Contribuições são bem-vindas! Se você quiser colaborar com este projeto, siga estas etapas:
-
-    Faça um fork do repositório.
-    Crie uma nova branch:
-
-    bash
-
-git checkout -b feature/nova-funcionalidade
-
-Faça suas alterações e commit:
-
-bash
-
-git commit -m 'Adiciona nova funcionalidade'
-
-Envie suas alterações para o repositório remoto:
-
-bash
-
-    git push origin feature/nova-funcionalidade
-
-    Abra um Pull Request para revisão.
-
-Licença
-
-Este projeto está licenciado sob a MIT License.
-Contato
-
-Desenvolvido por Seu Nome. Entre em contato pelo LinkedIn.
+Desenvolvido por João Victor Carniel. Entre em contato pelo LinkedIn.
